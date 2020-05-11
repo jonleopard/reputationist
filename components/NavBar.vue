@@ -1,12 +1,8 @@
 <template>
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
-        <img
-          src="https://bulma.io/images/bulma-logo.png"
-          width="112"
-          height="28"
-        />
+      <a class="navbar-item" href="/">
+        <img src="/logo-main.png" width="112" height="68" />
       </a>
 
       <a
@@ -24,10 +20,6 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">
-          Home
-        </a>
-
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
             Services
@@ -53,26 +45,34 @@
               C-Suites & Executives
             </a>
             <a class="navbar-item">
-              Enterprise SEO
+              Individuals
+            </a>
+            <a class="navbar-item">
+              Small Businesses
+            </a>
+            <a class="navbar-item">
+              Large Companies
+            </a>
+            <a class="navbar-item">
+              Enterprise Companies
             </a>
           </div>
         </div>
 
         <a class="navbar-item">
-          Documentation
+          About Us
+        </a>
+
+        <a class="navbar-item">
+          Case Studies
         </a>
       </div>
 
       <div class="navbar-end">
         <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-primary">
-              <strong>Sign up</strong>
-            </a>
-            <a class="button is-light">
-              Log in
-            </a>
-          </div>
+          <a class="button is-primary">
+            <strong>Contact</strong>
+          </a>
         </div>
       </div>
     </div>
