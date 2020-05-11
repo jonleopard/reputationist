@@ -1,8 +1,12 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav
+    class="navbar is-transparent is-fixed-top is-solid"
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
-        <img src="/logo-main.png" width="112" height="68" />
+        <img src="/logo-main.png" width="112px" />
       </a>
 
       <a
