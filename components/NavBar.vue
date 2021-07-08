@@ -1,12 +1,12 @@
 <template>
   <nav
-    class="navbar is-transparent is-fixed-top is-solid"
+    class="navbar bd-navbar is-fixed-top is-solid is-spaced"
     role="navigation"
     aria-label="main navigation"
   >
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
-        <img src="/logo-main.png" width="112px" />
+        <img src="/logo-10.svg" />
       </a>
 
       <a
@@ -87,4 +87,8 @@
 export default {}
 </script>
 
-<style lang="scss" scoped></style>
+<style>
+.navbar-item img {
+  max-height: 3.75rem;
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer has-text-white level has-background-grey-dark columns">
+  <footer class="footer has-text-white has-background-grey-dark">
     <div class="columns">
       <div class="column is-two-fifths">
         <img src="/logo-main-white.png" width="250px" />
